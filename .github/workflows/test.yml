@@ -1,9 +1,9 @@
 name: Node-js application 
 
-on: [push, pull_request]
+on: [push]
 
 jobs:
   build:
     uses: owner/workflow-templates/.github/workflows/reusable-template.yml
     with:
-      node-version: '14'
+      node-version: "14"
