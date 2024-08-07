@@ -4,6 +4,6 @@ on: [push]
 
 jobs:
   build:
-    uses: owner/workflow-templates/.github/workflows/reusable-template.yml
+    uses: owner/workflow-templates/.github/workflows/reusable-template.yml@main
     with:
       node-version: "14"
